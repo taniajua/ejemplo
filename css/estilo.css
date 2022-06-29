@@ -1,0 +1,40 @@
+body {
+    background: #fffc00;
+}
+h1{
+    color: #ff0000;
+    font-family: sans-serif;
+    width: 100%; border: 1px solid #000;
+    text-align: center;
+}
+
+.envoltura {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articulo {
+    width: 45%;
+    height: 200px;
+    border: 1px solid #000000;
+    margin: 2%;
+}
+
+@media screen and (max-width: 599px) {
+    .articulo{
+        width: 95%;
+        height: 200px;
+        border: 1px solid #000000;
+        margin: 2%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .articulo{
+        width: 23%;
+        height: 200px;
+        border: 1px solid #000000;
+        margin: 0.5%;
+    }
+    
+}
